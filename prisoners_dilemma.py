@@ -10,7 +10,7 @@ from __future__ import print_function
 # 
 # To run a tournament, execute this file. 
 # Place each team's strategy in a file in the same directory as this file.
-# Tournament results saved to tournament.txt in this directory.
+# Tournament results saved to tournament.txt in this dire
 #
 # prisoners_dilemma.py automates competition among different strategies
 # for the Iterative Prisoners Dilemma, the canonical game of game-theory.
@@ -380,4 +380,4 @@ def post_to_file(string, filename='tournament.txt', directory=''):
 ### Call main_play() if this file is executed
 if __name__ == '__main__':
     scores, moves, reports = main_play(teams)   
-    section0, section1, section2, section3 = reports
+    section0, section1, section2, section3 = reports3

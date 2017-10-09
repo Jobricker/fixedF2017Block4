@@ -30,6 +30,3 @@ def move(my_history, their_history, my_score, their_score):
         return 'b'               # Betray.
     else:
         return 'c'         # but 90% of the time collude
-    
-    
-    
